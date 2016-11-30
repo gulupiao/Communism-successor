@@ -1,0 +1,399 @@
+﻿<expt>
+/ blocks = [1 = introduction; 2 = someblock]
+</expt>
+
+<block someblock>
+/ trials = [1-36 = noreplace(sometrials1,sometrials2,sometrials3,sometrials4,sometrials5,sometrials6,sometrials7,sometrials8,sometrials9);]
+</block>
+
+<block introduction>
+/ trials = [1 = introduction]
+</block>
+
+<trial sometrials1>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,letter; 780=a14,num,fixation; 910=a15,a16,fixation; 1040=a17,a18,fixation; 1170=a19,a20,fixation; 1300=a21,a22,fixation; 1430=a23,a24,fixation;1560=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials2>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,letter; 780=a13,a14,fixation; 910=a15,a16,fixation; 1040=num,a18,fixation; 1170=a19,a20,fixation; 1300=a21,a22,fixation; 1430=a23,a24,fixation; 1560=a25,a26,fixation;1690=a27,a28,fixation;1820=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials3>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,letter; 780=a13,a14,fixation; 910=a15,a16,fixation; 1040=a17,a18,fixation; 1170=a19,a20,fixation; 1300=num,a22,fixation; 1430=a23,a24,fixation; 1560=a25,a26,fixation;1690=a27,a28,fixation;1820=a29,a30,fixation;1950=a31,a32,fixation;2080=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials4>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,a11,fixation; 780=a14,a13,fixation; 910=letter,a16,fixation; 1040=num,a18,fixation; 1170=a19,a20,fixation; 1300=a21,a22,fixation; 1430=a23,a24,fixation; 1560=a25,a26,fixation;1690=a27,a28,fixation;1820=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials5>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,a11; 780=a14,a13,fixation; 910=letter,a16,fixation; 1040=a17,a18,fixation; 1170=a19,a20,fixation; 1300=num,a22,fixation; 1430=a23,a24,fixation; 1560=a25,a26,fixation;1690=a27,a28,fixation;1820=a29,a30,fixation;1950=a31,a32,fixation;2080=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials6>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,a11; 780=a14,a13,fixation; 910=letter,a16,fixation; 1040=a17,a18,fixation; 1170=a19,a20,fixation; 1300=a21,a22,fixation; 1430=a23,a24,fixation; 1560=num,a26,fixation;1690=a27,a28,fixation;1820=a29,a30,fixation;1950=a31,a32,fixation;2080=a33,a34,fixation;2210=a35,a36,fixation;2340=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials7>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,a11; 780=a14,a13,fixation; 910=a15,a16,fixation; 1040=a17,a18,fixation; 1170=letter,a20,fixation; 1300=num,a22,fixation; 1430=a23,a24,fixation; 1560=a25,a26,fixation;1690=a27,a28,fixation;1820=a29,a30,fixation;1950=a31,a32,fixation;2080=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials8>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,a11; 780=a14,a13,fixation; 910=a15,a16,fixation; 1040=a17,a18,fixation; 1170=letter,a20,fixation; 1300=a21,a22,fixation; 1430=a23,a24,fixation; 1560=num,a26,fixation;1690=a27,a28,fixation;1820=a29,a30,fixation;1950=a31,a32,fixation;2080=a33,a34,fixation;2210=a35,a36,fixation;2340=inner]
+/ validresponse = (57)
+</trial>
+
+<trial sometrials9>
+/ ontrialbegin = [list.alist.reset()]
+/ stimulustimes = [0=a1,a2,fixation; 130=a3,a4,fixation; 260=a5,a6,fixation; 390=a7,a8,fixation; 520=a9,a10,fixation; 650=a12,fixation,a11; 780=a14,a13,fixation; 910=a15,a16,fixation; 1040=a17,a18,fixation; 1170=letter,a20,fixation; 1300=a21,a22,fixation; 1430=a23,a24,fixation; 1560=a25,a26,fixation;1690=a27,a28,fixation;1820=num,a30,fixation;1950=a31,a32,fixation;2080=a33,a34,fixation;2210=a35,a36,fixation;2340=a37,a38,fixation;2470=a39,a40,fixation;2600=inner]
+/ validresponse = (57)
+</trial>
+
+<trial introduction>
+/ stimulusframes = [1=introduction]
+/ validresponse = (57)
+</trial>
+
+
+<text fixation>
+/items = ("+")
+/fontstyle = ("Arial",40ptc)
+</text>
+
+<text introduction>
+/items =("欢迎您参加实验
+请您注视屏幕中央的注视点
+屏幕会迅速闪现一些字母和数字
+请您在每次闪现完成后报告出红色的字母和数字
+
+请按空格键开始试验
+每次闪现完成后，请按空格继续")
+/fontstyle = ("宋体",40ptc)
+</text>
+
+<text inner>
+/items =("请用键盘选出所看到的字母和数字")
+/fontstyle = ("宋体",40ptc)
+</text>
+
+<text letter>
+/ items = letter
+/selectionrate = trial
+/color = red
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+
+<text num>
+/ items = num
+/selectionrate = trial
+/color = red
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+
+<text a1>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a2>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a3>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a4>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a5>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a6>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a7>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a8>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a9>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a10>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a11>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a12>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a13>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a14>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a15>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a16>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+</text>
+<text a17>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a18>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a19>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a20>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a21>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a22>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a23>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a24>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a25>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a26>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a27>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a28>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a29>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a30>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a31>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a32>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a33>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a34>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a35>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a36>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a37>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (45pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a38>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a39>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+<text a40>
+/ items = aitems
+/ select = list.alist.nextindex
+/position = (55pct,50pct)
+/fontstyle = ("Arial",40ptc)
+</text>
+
+
+<item letter>
+/1="D"
+/2="F"
+/3="J"
+/4="G"
+/5="K"
+/6="L"
+</item>
+<item num>
+/1="1"
+/2="2"
+/3="3"
+/4="4"
+/5="5"
+/6="6"
+</item>
+<item aitems>
+/1="A"
+/2="B"
+/3="C"
+/4="D"
+/5="E"
+/6="F"
+/7="G"
+/8="H"
+/9="I"
+/10="J"
+/11="K"
+/12="L"
+/13="M"
+/14="N"
+/15="O"
+/16="P"
+/17="Q"
+/18="R"
+/19="S"
+/20="T"
+/21="U"
+/22="V"
+/23="W"
+/24="X"
+/25="Y"
+/26="Z"
+</item>
+
+<list alist>
+/ poolsize = 26
+/ selectionrate = always
+</list>
